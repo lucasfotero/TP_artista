@@ -29,7 +29,14 @@ body {
     
 }
 
+#wallpaper {
+    margin: 0;
+    padding: 0;
+}
+
 #div1 {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,13 +103,24 @@ body {
     width: 50%;
 }
 
+#video_anyma {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
 #footer {
+    padding: 0;
+    margin: 0;
     text-align: right;
     height: 35px;
+    background-color: #0000003c;
 }
 
 #rrss {
     padding-top: 30px;
     padding-right: 30px;
 }
+
+
 
