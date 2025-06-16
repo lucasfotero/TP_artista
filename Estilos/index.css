@@ -21,6 +21,7 @@ body {
 
 
 #nav {
+    font-family: "barlow";
     background: linear-gradient(180deg,rgba(0, 0, 0, 0.261), rgba(255, 255, 255, 0.001));
     color: #ffffff;
     position: fixed;
@@ -111,6 +112,7 @@ body {
 }
 
 #texto1 {
+    font-family: "barlow";
     padding-top: 80px;
     padding-bottom: 80px;
     color: #ffffff;
@@ -128,6 +130,7 @@ body {
 }
 
 #texto2 {
+    font-family: "barlow";
     padding-top: 80px;
     padding-bottom: 80px;
     color: #000000;
@@ -154,6 +157,7 @@ body {
 }
 
 #texto4 {
+    font-family: "barlow";
     padding-top: 80px;
     padding-bottom: 80px;
     color: #ffffff;
@@ -161,6 +165,7 @@ body {
 }
 
 #texto5 {
+    font-family: "barlow";
     padding-top: 80px;
     padding-bottom: 80px;
     color: #ffffff;
