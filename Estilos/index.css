@@ -41,7 +41,7 @@ body {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: linear-gradient(to right, #000000, #4587b1);
+  background: linear-gradient(to right, #000000, #356787);
   bottom: -5px;
   left: 0;
   transform: scaleX(0);
@@ -71,7 +71,7 @@ body {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: linear-gradient(to right, #000000, #4587b1);
+  background: linear-gradient(to right, #000000, #356787);
   bottom: -5px;
   left: 0;
   transform: scaleX(0);
