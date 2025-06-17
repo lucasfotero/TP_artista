@@ -94,6 +94,36 @@ body {
   transform: scaleX(1);
 }
 
+.suscribete {
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+.suscribete::after,
+.suscribete::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #000000, #356787);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.suscribete::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.suscribete:hover::after,
+.suscribete:hover::before {
+  transform: scaleX(1);
+}
+
 #wallpaper {
     margin: 0;
     padding: 0;
@@ -176,6 +206,84 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#suscribete {
+    font-size: 40px;
+    font-family: "barlow";
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:solid 10px linear-gradient(180deg,white, #306073);
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+#legend {
+    font-family: "barlow";
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+}
+
+#email {
+    font-family: "barlow";
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+}
+
+#textoform {
+    font-family: "barlow";
+    font-size: 10px;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+}
+
+.button {
+    position: relative;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  background: black;
+  border: 2px solid linear-gradient(180deg,#306073, white);
+  border-radius: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.button {
+  background: linear-gradient(#282c6c 0 0) no-repeat calc(200% - var(--p, 0%))
+    100% / 200% var(--p, 0.2em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.button:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: #fff;
 }
 
 #footer {
