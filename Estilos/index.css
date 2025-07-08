@@ -324,6 +324,11 @@ fieldset {
         width: 60px;
     }
 
+   #wallpaper {
+    margin: 0;
+    padding: 0;
+  }
+
     #div1, #div2, #div3, #short, #formulario {
         padding: 0.5rem;
     }
@@ -333,7 +338,7 @@ fieldset {
     }
 
     iframe, .tiktok-embed {
-        width: 100% !important;
+        width: 100%;
         height: auto;
     }
 
