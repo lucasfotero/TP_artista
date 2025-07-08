@@ -301,3 +301,67 @@ fieldset {
 
 
 
+@media only screen and (max-width: 480px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav#nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    nav#nav a {
+        margin: 8px 0;
+        font-size: 1rem;
+    }
+
+    #logo img {
+        width: 60px;
+    }
+
+    #div1, #div2, #div3, #short, #formulario {
+        padding: 0.5rem;
+    }
+
+    #div3 img {
+        width: 100%;
+    }
+
+    iframe, .tiktok-embed {
+        width: 100% !important;
+        height: auto;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    #formulario input {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    #texto1, #texto2, #texto4, #texto5, #textoform {
+        font-size: 1rem;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rrss img {
+        width: 30px;
+        height: 30px;
+        margin: 8px;
+    }
+}
