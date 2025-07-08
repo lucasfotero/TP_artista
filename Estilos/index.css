@@ -143,6 +143,7 @@ body {
 
 #texto1 {
     font-family: "barlow";
+    text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
     color: #ffffff;
@@ -333,16 +334,16 @@ fieldset {
 
    #wallpaper {
     margin: 0;
-    padding: 0;
+    padding: 0 auto;
   }
 
-    #div1, #div2, #div3, #formulario {
-        padding: 0.5rem;
+    #div1, #div2, #div3 {
+        padding: 0;
     }
 
     #div3 img {
         width: 100%;
-        padding: 0 auto;
+        padding: 0;
     }
 
     iframe, .tiktok-embed {
